@@ -1,0 +1,9 @@
+mkdir aiProject
+cd aiProject/
+python -m venv aiProject/
+cd aiProject/
+source bin/activate
+git clone --recursive https://github.com/openai/retro.git gym-retro
+cd gym-retro
+pip3 install -e .
+python examples/random_agent.py GoldenAxe-Gesis #this runs the game with random movement
