@@ -4,7 +4,8 @@
 fitness_criterion     = max
 fitness_threshold     = 100000
 pop_size              = 20	
-reset_on_extinction   = True	#--set True to help find global maximum--#
+reset_on_extinction   = True
+#set True to help find global maximum
 
 [DefaultGenome]
 # node activation options
@@ -69,7 +70,8 @@ weight_mutate_rate      = 0.8
 weight_replace_rate     = 0.1
 
 [DefaultSpeciesSet]
-compatibility_threshold = 2.5  #raise for less species, lower for more
+compatibility_threshold = 2.5  
+#raise for less species, lower for more
 
 [DefaultStagnation]
 species_fitness_func = max
